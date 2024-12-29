@@ -1,0 +1,12 @@
+== Zahlendarstellung für die logistische Abbildung <einleitung_zahlendarstellung_für_die_logistische_abbildung>
+In @abbildung_histogram_logmap_and_floats wurden die Histogramme der logistischen Funktion für r = 4 und ein Histogramm mit der Verteilung der darstellbaren Float-Gleitkommazahlen nach IEEE 754 im Wertebereich 0 bis 1 übereinandergelegt. Um das „Float-Histogramm“ schneller berechnen zu können wurde es lediglich in 100 Werteklassen eingeteilt. Die y-Achse für das „Float-Diagramm“ wurde für eine bessere Darstellung logarithmisch skaliert. Die abgebildeten „Stufen“ zwischen den Werteklassen wären in einer detaillierteren Darstellung mit mehreren Werteklassen abgeflacht und würden einen gleichmäßigeren Verlauf bilden. \
+Bei der Betrachtung des „Float-Diagramms“ ist zum einen die hohe Dichte der darstellbaren Zahlen nahe der Zahl 0 und ihre bereits enorme Abnahme bei Annäherung an die Zahl 0,1 erkennbar. Andererseits zeigt das fast symmetrische Histogramm der logistischen Funktion für r = 4 zunächst eine ebenfalls sehr hohe Zahlendichte nahe 0. Im Gegensatz zur Zahlendarstellung mit Float zeigt sich aber wieder eine hohe Zunahme der erreichten Punkte, bei Annäherung an den Wert 1. Man erkennt beim Vergleich der Histogramme, dass die Dichte der darstellbaren Zahlen (Float nach IEEE 754) nicht gleichmäßig zur Zahlendichte der logistischen Funktion verläuft. \
+Es kann grundsätzlich angenommen werden, dass eine größere Dichte an darstellbaren Zahlen im Schnitt zu kleineren Rundungsfehlern und somit zu kleineren Abweichungen führt (siehe @Hauptteil_Evaluation_Evaluation_der_Zahlendarstellung). Die von der logistischen Funktion erreichten Punkte werden von der Zahlendarstellung mit Float nach IEEE 754 im Bereich nahe der 0 genauer dargestellt und im Bereich nahe der 1 schlechter, da die Rundungsfehler dort im Schnitt höher sind (ausführlicher in @Hauptteil_Evaluation_Evaluation_der_Zahlendarstellung). \
+Damit ergibt sich die Themenstellung der Masterarbeit: Kann eine Zahlendarstellung für Dezimalzahlen entwickelt werden, die für die Darstellung der Werte der logistischen Funktion besser geeignet ist als die Darstellung mit Float (oder Double) nach IEEE 754?
+
+#figure(
+  image("Abbildungen/Histogramm Logistische Abbildung und Floats.png", width: 85%),
+  caption: [
+    Histogramme Logistische Abbildung und darstellbare Floats
+  ],
+)<abbildung_histogram_logmap_and_floats>

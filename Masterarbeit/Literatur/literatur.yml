@@ -1,0 +1,61 @@
+lit_ottoSpaniol_arithmetik_in_rechenanlagen:
+    type: Book
+    title: Arithmetik in Rechenanlagen
+    author: Spaniol, Otto
+    publisher: Teubner Studienbücher
+    date: 1976-09-01
+
+lit_bifurcation_map_feigenbaumdarstellung:
+    type: Web
+    title: Bifurcation Map
+    url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Logistic_Bifurcation_map_High_Resolution.png/1280px-Logistic_Bifurcation_map_High_Resolution.png
+    date: 2024-11-10
+
+lit_peterSmith_explainingChaos:
+    type: Book
+    title: Explaining Chaos
+    author: Smith, Peter
+    publisher: Cambridge University Press
+    date: 1998-09-24
+
+lit_distribution_floats:
+    type: Web
+    title: Non uniform distribution of floating point numbers
+    url: https://www.researchgate.net/figure/The-non-uniform-distribution-of-floating-point-numbers-implies-that-the-same-absolute_fig2_228807601
+    date: 2024-11-10
+
+lit_flajolet_odlyzko_random_mapping_statistics:
+    type: Book
+    title: Explaining Chaos
+    author: ["Fajolet, Philippe", "Odlyzko, Andrew M."]
+    publisher: Springer
+    date: 2001-01-01
+
+lit_ORegan_a_brief_history_of_computing:
+    type: Book
+    title: A Brief History of Computing, 2. Auflage
+    author: O’Regan, Gerard
+    publisher: Springer
+    date: 2014-04-13
+
+lit_Boole_analysis_of_logic:
+    type: Book
+    title: The Mathematical Analysis of Logic, Being an Essay Towards a Calculus of Deductive Reasonin
+    author: Boole, George
+    publisher: CreateSpace Independent Publishing Platform (2006)
+    date: 1847-01-01
+
+lit_von-Neumann_First_Draft_of_a_Report_on_the_EDVAC:
+    type: Book
+    title: First Draft of a Report on the EDVAC
+    author: von-Neumann, John
+    publisher: Moore School of Electrical Engineering, University of Pennsylvania (2022)
+    date: 1945-06-30
+
+lit_Campbell_The_Setun_Computer:
+    type: Web
+    title: The Setun Computer
+    author: Campbell, Earl T.
+    url:  https://earltcampbell.com/2014/12/29/the-setun-computer/
+    date: 2014-12-29
+
